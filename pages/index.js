@@ -2,14 +2,9 @@ import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/Home.module.css';
 import { Navbar } from './src/components/common/navbar/navbar.component';
-import { Card } from './src/components/card/card.component';
+
 import { Hero } from './src/components/hero/hero.component';
-import { HackathonProjects } from './src/components/hackathon-project/projects/hackathon-project.component';
-import { HackathonSection } from './src/components/hackathon-project/hackathon-section.component';
-import { SkillsSection } from './src/components/skills-section/skills-section.component';
-import { WorkExperience } from './src/components/experience/experience-section.component';
-import { BlogSection } from './src/components/blog-section/blog-section.component';
-import { Footer } from './src/components/common/footer/footer.component';
+
 import { WhySection } from './src/components/why-section/why-section.component';
 import { TechStack } from './src/components/tech-stack/tech-stack.component';
 import { JoinCommunity } from './src/components/join-community/join-community.component';
@@ -37,13 +32,10 @@ export default function Home() {
       <Features />
       <WhySection />
       <TechStack />
-      {/* <HackathonSection /> */}
-      {/* <SkillsSection /> */}
-      {/* <WorkExperience />
-      <BlogSection /> */}
+
       <RoadMap />
-      <Faq />
       <JoinCommunity />
+      <Faq />
     </div>
   );
 }

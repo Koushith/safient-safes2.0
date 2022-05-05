@@ -12,11 +12,14 @@ export const RoadMaps = styled.div`
   background: #25282c;
   padding: 4rem;
   gap: 4rem;
+  &:hover {
+    cursor: pointer;
+    box-shadow: 0 0 12px #5d5dff;
+  }
 `;
 
 export const YearContainer = styled.div`
-  /* flex: 1; */
-  align-self: center;
+  align-self: auto;
 
   p {
     color: #d9e3ea;
@@ -26,9 +29,7 @@ export const YearContainer = styled.div`
 `;
 
 export const Description = styled.div`
-  /* flex: 0 0 00px; */
-  /* flex: 2; */
-  max-width: 850px;
+  max-width: 780px;
 
   h4 {
     color: #d9e3ea;
@@ -37,12 +38,19 @@ export const Description = styled.div`
 
   .details {
     margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
   }
 `;
 
 export const TimeFrameContainer = styled.div`
+  margin-bottom: 8rem;
   h2 {
     text-align: center;
     margin-bottom: 5rem;
+  }
+  li {
+    list-style: square;
   }
 `;
