@@ -11,3 +11,4 @@ export * from './components/join-community/join-community.component';
 export * from './components/features/features.component';
 export * from './components/faq/faq.component';
 export * from './components/roadmap/roadmap.component';
+export * from './components/how/how.component';

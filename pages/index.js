@@ -11,6 +11,7 @@ import { JoinCommunity } from './src/components/join-community/join-community.co
 import { Features } from './src/components/features/features.component';
 import { Faq } from './src/components/faq/faq.component';
 import { RoadMap } from './src/components/roadmap/roadmap.component';
+import { HowItWorks } from './src/components/how/how.component';
 
 export default function Home() {
   return (
@@ -31,6 +32,7 @@ export default function Home() {
       <Hero />
       <Features />
       <WhySection />
+      <HowItWorks />
       <TechStack />
 
       <RoadMap />
